@@ -1,0 +1,11 @@
+file_upload_url: https://ioc.zhi-zai.com/process-factory/admin-api/infra/file/upload
+
+OpenAI:
+  api_key: none
+  base_url: http://localhost:8000/v1
+  model: InternVL3-8B
+
+#OpenAI:
+#  api_key: sk-0ffaa2ae7c5c499aa7fd03e646b6717a
+#  base_url: https://dashscope.aliyuncs.com/compatible-mode/v1
+#  model: qwen2.5-vl-72b-instruct
