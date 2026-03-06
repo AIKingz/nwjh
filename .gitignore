@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+*.egg-info/
+.eggs/
+dist/
+build/
+# 模型权重与大数据（体积大，建议用网盘或 Git LFS 单独管理）
+Models/
+*.pth
+*.onnx
+*.pt
+*.mindir
+# 数据与临时文件
+data/
+*.pdf
+temp_pdf_images/
+ocr_mark_data/
+batch_classify_extract_*.csv
+# 环境与密钥
+.env
+.env.local
+*.key
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+# 系统
+.DS_Store
+Thumbs.db
+# 日志
+*.log
+logs/
+tmp/
+predicted_results/
+*.jpg
+*.png
